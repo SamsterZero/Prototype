@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="Prototype.css">
+</head>
+<body>
+
+
+    <!-- NavBar -->
+    <header class="NavBar">
+
+        <!-- Search -->
+        <div>
+            <input type="text" placeholder="Search...">
+        </div>
+
+
+        <!-- Title & Dropdown -->
+        <div>
+            <span class="Title">PROTOTYPE</span>
+            <nav class="MainCategories">
+                <div class="dropdown">
+                    <button class="dropbtn">Men</button>
+                    <div class="dropdown-content">
+                        <a href="#">Casual</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Formal</a>
+                        <a href="#">Traditional</a>
+                        <a href="#">Ethenic</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Women</button>
+                    <div class="dropdown-content">
+                        <a href="#">Casual</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Formal</a>
+                        <a href="#">Traditional</a>
+                        <a href="#">Ethenic</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Boys</button>
+                    <div class="dropdown-content">
+                        <a href="#">Casual</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Formal</a>
+                        <a href="#">Traditional</a>
+                        <a href="#">Baby</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Girls</button>
+                    <div class="dropdown-content">
+                        <a href="#">Casual</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Formal</a>
+                        <a href="#">Traditional</a>
+                        <a href="#">Baby</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Important features -->
+        <div>
+            <button>Wishlist</button>
+            <button>Cart</button>
+            <button onClick="changeMode()">Dark</button>
+            <button onclick="document.location='Login or Sign Up.html'">Login</button>
+        </div>
+    </header>
+    <hr>
+
+
+
+    <!-- Carousal -->
+    <section class="slideshow-container fade event" href="#">
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+            <img src="C1.jpg">
+        </div>
+        
+        <div class="Containers">
+            <img src="C3.jpg">
+        </div>
+          
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+
+
+
+
+    <!-- Categories -->
+    <section class="Product Categories"><h3>Categories</h3></section>
+    <section class="Product Categories">
+        <a href="Casual.html">
+            <img src="cas.jpg" alt="Casual">
+            <caption>Casual</caption>
+        </a>
+        <a href="">
+            <img src="spo.jfif" alt="Sports">
+            <caption>Sports</caption>
+        </a>
+        <a href="">
+            <img src="For.jpg" alt="Formal">
+            <caption>Formal</caption>
+        </a>
+        <a href="">
+            <img src="Trad.jpg" alt="Traditional">
+            <caption>Traditional</caption>
+        </a>
+        <a href="">
+            <img src="Eth.jpg" alt="Ethenic">
+            <caption>Ethenic</caption>
+        </a>
+    </section>
+
+
+
+    <!-- Products -->
+    <section class="Product special"><h3>Products</h3></section>
+    <section class="Product special">
+        <div class="card">
+            <div><img src="P1.jpeg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P2.jpeg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P3.jpeg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P4.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P5.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P6.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P7.webp" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P8.jfif" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P9.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P10.jfif" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P11.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P12.png" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P13.png" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P14.jfif" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P15.jfif" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+        <div class="card">
+            <div><img src="P16.jpg" alt="Denim Jeans" style="width:100%"></div>
+            <h3>Tailored Jeans</h3>
+            <span class="price">$19.99</span>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <button>Cart</button>
+            <button>Wishlist</button>
+            <button>Buy</button>
+        </div>
+    </section>
+    <hr>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3><a href="About.html">About Us</a></h3>
+        </div>
+        <div>
+            Copyright &copy; 2021 Vinay & Priti
+            . Design:
+            <a href="https://www.google.com/" class="footer-link">
+                Vinay
+            </a>
+            &
+            <a href="https://www.google.com/" class="footer-link">
+                Priti
+            </a>
+        </div>
+    </footer>
+<script src="Prototype.js"></script>
+</body>
+</html>
